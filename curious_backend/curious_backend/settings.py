@@ -86,8 +86,8 @@ WSGI_APPLICATION = 'curious_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'curiousfacts',
-        'USER': 'admin',
+        'NAME': 'curiousFacts',
+        'USER': 'postgres',
         'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432'
